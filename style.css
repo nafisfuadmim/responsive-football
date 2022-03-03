@@ -1,3 +1,42 @@
-h1 {
-    color: red;
+/* Font and Other Styles */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Merriweather&family=Poppins:wght@500&family=Praise&display=swap');
+main {
+    font-family: 'Merriweather', serif;
 }
+/* Top Section */
+.top-section {
+    background-color: #8a9d8c;
+    height: 900px;
+}
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding-top: 150px;
+    
+}
+.banner-text {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+.banner .copa-america a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 1px solid gray;
+    background-color: firebrick;
+    padding: 15px 60px;
+    border-radius: 5px;
+}
+.banner-player img {
+    width: 560px;
+    height: 440px;
+}
+
+
+/* .test {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+   
+} */
