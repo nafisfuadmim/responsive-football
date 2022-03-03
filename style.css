@@ -3,6 +3,9 @@
 main {
     font-family: 'Merriweather', serif;
 }
+body {
+    margin: 0;
+}
 /* Top Section */
 .top-section {
     background-color: #8a9d8c;
@@ -19,7 +22,7 @@ main {
     color: #FFFFFF;
     font-size: 64px;
 }
-.banner .copa-america a {
+.btn {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -32,11 +35,57 @@ main {
     width: 560px;
     height: 440px;
 }
-
-
-/* .test {
+                       /* Main Section */
+.player {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 0.9em;
+    justify-items: center;
+    padding-top: 75px;
+    
+}
+.player .player-image img {
+    Width: 100%;
+   
+}  
+.player-image {
+    background-color: #e5e5e5;
+    border: 15px solid #e5e5e5;
+    height: 550px;
+    width: 350px;
+} 
+.player-info {
+    font-size: 20px;
+}   
+           /* High light Section */
+.high-light-img img {
+    width: 70%;
+}
+.third-section {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-   
-} */
+    margin-left: 200px;
+    margin-top: 30px;
+}
+/* last section */
+.football-banner img {
+    width: 40%;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.logo {
+    display: flex;
+   margin-left: 830px;
+}
+.logo i {
+    margin-left: 20px;
+}
+small {
+    margin-left: 800px;
+}
+/* media query */
+@media (max-width :556px) {
+    .all-players {
+        background-color: red;
+    }
+}
